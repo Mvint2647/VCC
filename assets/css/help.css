@@ -45,40 +45,14 @@ body {
     background-color: #4ba84b;
     color: #ffffff;
   }
-  
-  button {
-    position: absolute;
-    border: 1px solid rgba(0, 0, 0, 0.452);
-    background-color: rgba(0, 0, 0, 0.452);
+
+h1{
+    color:white;
+    text-align: center;
+    justify-content: center;
     font-family: "Raleway", sans-serif;
-    color: rgb(255, 255, 255);
-    width: 250px;
-    height: 50px;
-    font-size: 2em;
-    border-radius: 0px;
-    opacity: 0.9;
-    top: 60vh;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    transition: 0.4s;
-  }
-  
-  button:hover {
-    border: 1px solid #000000;
-    background-color: rgba(365, 365, 365);
-    cursor: pointer;
-    color: #000000;
-    opacity: 100%;
-    transition: 0.4s;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.507);
-  }
-  
-  button:focus {
-    outline: none;
-  }
-  
+
+}
   .light {
     position: absolute;
     width: 0px;
