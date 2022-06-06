@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-weight: 100;
+    background: radial-gradient(#77e6f5, #000000);
+    overflow-y: hidden;
+    font-family: "Raleway", sans-serif;
+    -webkit-animation: fadeIn 1 1s ease-out;
+    -moz-animation: fadeIn 1 1s ease-out;
+    -o-animation: fadeIn 1 1s ease-out;
+    animation: fadeIn 1 1s ease-out;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.301);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: auto;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(250, 250, 250);
+    color: black;
+    margin: auto;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  .topnav a.split {
+    float: right;
+    background-color: #ffffff;
+    color: #4ba84b;
+  }
+  .topnav a.split:hover {
+    float: right;
+    background-color: #4ba84b;
+    color: #ffffff;
+  }
+footer{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
+    padding-top: 20px;
+    background:rgba(0, 0, 0, 0.603);
+  }
