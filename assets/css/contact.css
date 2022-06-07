@@ -1,15 +1,14 @@
 body {
   margin: 0;
   font-weight: 100;
-  background-image: url("https://source.unsplash.com/1600x900/?Brick,Vending");
+  background-image: url("https://source.unsplash.com/1600x900/?brick,wall");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
 .topnav {
   overflow: hidden;
-  background:rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
   top: -50px;
   width: 100%;
   display: block;
@@ -56,31 +55,32 @@ video {
   width: 1080px;
   height: 720px;
   border: solid 2px white;
-  background:black;
+  background: black;
 }
 
-h1{
-  color:white;
+h1 {
+  color: white;
   text-align: center;
+  text-shadow: 2px 1px 6px #000000;
 }
 .image {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 }
 
-footer{
+footer {
   font-family: "Raleway", sans-serif;
   font-size: 1.2em;
   color: rgb(255, 255, 255);
-  text-align:center;
+  text-align: center;
   border-top: 2px #ffffff solid;
-  bottom:0;
-  width:100%;
-  height:60px; 
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   padding-top: 20px;
-  background:rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
 }
