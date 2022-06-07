@@ -1,13 +1,15 @@
 body {
   margin: 0;
-  height: 100vh;
   font-weight: 100;
-  background: radial-gradient(#000000, #000000);
+  background-image: url("https://source.unsplash.com/1600x900/?Brick,Vending");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .topnav {
   overflow: hidden;
-  background:rgba(122, 122, 122, 0.253);
+  background:rgba(0, 0, 0, 0.253);
   top: -50px;
   width: 100%;
   display: block;
@@ -53,6 +55,8 @@ video {
   align-items: center;
   width: 1080px;
   height: 720px;
+  border: solid 2px white;
+  background:black;
 }
 
 h1{
@@ -60,8 +64,8 @@ h1{
   text-align: center;
 }
 .image {
-  width: 400px;
-  height: 400px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
