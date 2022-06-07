@@ -20,8 +20,27 @@
         <video autoplay loop>
             <source src="assets/vending.mp4" type="video/mp4">
         </video>
-      </div>
-      <footer>
+    </div>
+
+    <div>
+        <h1>Visit us on Facebook!</h1>
+        <img class="image" src="assets/qr-code.png">
+    </div>
+
+    <footer>
         VCC all rights reserved 2022</a>
-       </footer>
+    </footer>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("topnav").style.top = "0";
+          } else {
+            document.getElementById("topnav").style.top = "-50px";
+          }
+        }
+        </script>
 </body>
