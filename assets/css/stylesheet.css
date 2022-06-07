@@ -12,7 +12,7 @@ body {
   }
   .topnav {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.301);
+    background:rgba(122, 122, 122, 0.253);
   }
   
   .topnav a {
@@ -497,18 +497,18 @@ body {
       opacity: 1;
     }
   }
-  
+
   footer{
     font-family: "Raleway", sans-serif;
     font-size: 1.2em;
     color: rgb(255, 255, 255);
     text-align:center;
-    position:absolute;
+    border-top: 2px #ffffff solid;
     bottom:0;
+    position:absolute;
     width:100%;
     height:60px; 
     padding-top: 20px;
-    background:rgba(0, 0, 0, 0.603);
+    background:rgba(122, 122, 122, 0.253);
   }
-  
   
